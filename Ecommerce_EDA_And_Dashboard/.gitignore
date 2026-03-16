@@ -19,3 +19,10 @@ data/cleaned/*
 *.db
 *.sqlite
 *.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
