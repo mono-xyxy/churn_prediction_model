@@ -1,5 +1,4 @@
+import subprocess
+
 def handler(request):
-    return {
-        "statusCode": 200,
-        "body": "E-Commerce EDA Dashboard API running"
-    }
+    subprocess.run(["streamlit", "run", "dashboard/app.py"])
