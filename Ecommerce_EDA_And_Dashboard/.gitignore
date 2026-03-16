@@ -1,0 +1,17 @@
+/archive.zip
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+data/raw/*
+data/cleaned/*
