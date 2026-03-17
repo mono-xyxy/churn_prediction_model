@@ -5,7 +5,9 @@ from src.predict import predict
 
 app = FastAPI()
 
-
+@app.get("/")
+def root():
+    return {"message": "Churn Prediction API is running"}
 class Customer(BaseModel):
     gender: str
     SeniorCitizen: int
